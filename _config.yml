@@ -1,0 +1,34 @@
+title: Stephen304
+email: stephen304@gmail.com
+description: >-
+  The home of Stephen Smith on the internet.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:day/:title:output_ext
+twitter_username: StephenLeeSmith
+github_username:  Stephen304
+
+google_analytics: UA-11112737-8
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Add pages
+include: ['_pages']
+
+sass:
+    style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

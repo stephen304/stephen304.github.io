@@ -1,0 +1,17 @@
+@mixin mobile-only($break: $break-mobile) {
+  @media (max-width: $break) {
+    @content;
+  }
+}
+
+@mixin tablet-only($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin desktop-only($break: $break-mobile) {
+  @media not all and (max-width: $break) {
+    @content;
+  }
+}

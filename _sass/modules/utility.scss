@@ -1,0 +1,14 @@
+.pull-right {
+  float: right !important;
+}
+
+.mobile-only {
+  @media (min-width: $break-mobile + 1) {
+    display: none !important;
+  }
+}
+.desktop-only {
+  @media (max-width: $break-mobile) {
+    display: none !important;
+  }
+}
