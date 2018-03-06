@@ -1,10 +1,10 @@
 ---
 ---
 
-@import "partials/base";
-@import "partials/typography";
-
+@import "base";
 @import "normalize";
+
+@import "partials/typography";
 
 @import "modules/utility";
 @import "modules/mixins";
@@ -12,8 +12,3 @@
 @import "components/header";
 @import "components/page";
 @import "components/footer";
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
