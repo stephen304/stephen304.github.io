@@ -1,14 +1,15 @@
 ---
 ---
 
-@import "base";
-@import "normalize";
+@import "vendor/normalize";
 
-@import "partials/typography";
+@import "components/variables";
+@import "components/global";
+@import "components/typography";
 
 @import "modules/utility";
 @import "modules/mixins";
 
-@import "components/header";
-@import "components/page";
-@import "components/footer";
+@import "partials/header";
+@import "partials/page";
+@import "partials/footer";
